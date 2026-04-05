@@ -1,0 +1,88 @@
+body {
+    background: #1a1a1a;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.caja {
+    background: #2a2a2a;
+    border: 1px solid #555;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+h1,
+h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #aaa;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+button {
+    background: #333;
+    color: #eee;
+    border: 1px solid #4CAF50;
+    padding: 8px 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #4CAF50;
+    color: #000;
+}
+
+input {
+    background: #111;
+    color: #4CAF50;
+    border: 1px solid #555;
+    padding: 8px 12px;
+    font-size: 1em;
+    border-radius: 4px;
+    margin: 8px 4px;
+    width: 180px;
+    text-align: center;
+}
+
+.pista {
+    background: #111;
+    border-left: 3px solid #4CAF50;
+    padding: 8px 12px;
+    margin: 6px 0;
+    color: #4CAF50;
+}
+
+.error {
+    color: #f44;
+    margin-top: 10px;
+}
+
+.exito {
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+.bloque {
+    margin: 15px 0;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.bloque strong {
+    display: block;
+    color: #aaa;
+    margin-bottom: 8px;
+    font-size: 0.85em;
+}
