@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sala 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caja">
+        <h2>Sala 1.El laboratorio</h2>
+        <p>Busca pistas en los objetos de la sala para encontrar el codigo.</p>
+
+        <div class="bloque">
+            <strong>Pistas:</strong>
+            <button onclick="pista1()">Ver nombre</button>
+            <button onclick="pista2()">Ver ubicacion</button>
+            <button onclick="pista3()">Ejecutar funcion</button>
+            <button onclick="pista4()">Buscar dato oculto</button>
+            <button onclick="pista5()">Ver copia</button>
+        </div>
+
+        <div id="pistas"></div>
+
+        <div class="bloque">
+            <strong>Codigo de la puerta:</strong>
+            <input type="text" id="codigo" placeholder="escribe el codigo">
+            <button onclick="comprobar()">Abrir</button>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script src="sala1.js"></script>
+</body>
+</html>
