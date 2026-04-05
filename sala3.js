@@ -16,7 +16,7 @@ function verSistema() {  //llamo al metodo heredado info() y al estatico getTota
 }
 
 function verAcertijo() {
-    mostrar("anio de nacimiento del creador de Linux mas 80");
+    mostrar("año de nacimiento del creador de Linux mas 80");
 }
 
 function verPista() {
