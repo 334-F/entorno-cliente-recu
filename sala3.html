@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sala 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caja">
+        <h2>Sala 3 - La boveda</h2>
+        <p>Una cerradura digital bloquea la salida. Descifra el acertijo.</p>
+
+        <div class="bloque">
+            <strong>Sistema:</strong>
+            <button onclick="verSistema()">Ver sistema</button>
+            <button onclick="verAcertijo()">Ver acertijo</button>
+            <button onclick="verPista()">Pista</button>
+        </div>
+
+        <div id="pistas"></div>
+
+        <div class="bloque">
+            <strong>Codigo:</strong>
+            <input type="text" id="codigo" placeholder="4 numeros">
+            <button onclick="intentar()">Abrir</button>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script type="module" src="sala3.js"></script>
+</body>
+</html>
