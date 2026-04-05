@@ -1,5 +1,5 @@
 import { Cerradura, CerraduraDigital } from "./clases.js";
-
+//// importo las clases del modulo clases.js
 var boveda = new CerraduraDigital("boveda-01", "2049");
 
 function mostrar(texto) {
@@ -9,7 +9,7 @@ function mostrar(texto) {
     document.getElementById("pistas").appendChild(linea);
 }
 
-function verSistema() {
+function verSistema() {  //llamo al metodo heredado info() y al estatico getTotal()
     mostrar(boveda.info());
     mostrar("cerraduras creadas: " + Cerradura.getTotal());
     mostrar("intentos fallidos: " + boveda.getFallos());
@@ -24,7 +24,7 @@ function verPista() {
     mostrar("1969 + 80 = ?");
 }
 
-function intentar() {
+function intentar() {  //abrir la boveda con el codigo introducido
     var input = document.getElementById("codigo").value;
     var resultado = document.getElementById("resultado");
 
