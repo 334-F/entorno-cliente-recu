@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sala 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caja">
+        <h2>Sala 2 - El archivo</h2>
+        <p>Analiza las carpetas para encontrar la clave numerica.</p>
+
+        <div class="bloque">
+            <strong>Analizar:</strong>
+            <button onclick="verTodas()">Ver todas las pistas</button>
+            <button onclick="soloVisuales()">Filtrar visuales</button>
+            <button onclick="verMapa()">Ver mapa</button>
+            <button onclick="calcular()">Calcular clave</button>
+        </div>
+
+        <div id="pistas"></div>
+
+        <div class="bloque">
+            <strong>Clave:</strong>
+            <input type="text" id="clave" placeholder="escribe un numero">
+            <button onclick="comprobar()">Abrir</button>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <script src="sala2.js"></script>
+</body>
+</html>
